@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+// tao route
+Route::get('/home', function() {
+	return view('welcome');
+});
